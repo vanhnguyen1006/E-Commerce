@@ -107,10 +107,10 @@
                                 <div class="card-body">
                                     <h4 class="card-title text-overfl"><a  th:href="${'/product/' + {product.getId()} }"  th:title="${product.name}" th:text="${product.name}"></a></h4>
                                     <div class="row">
-                                        <div class="col col-edit">
+                                        <div class="col flex-container-col">
                                             <p class="btn btn-danger btn-block" th:text="${product.price}"></p>
                                         </div>
-                                        <div class="col col-edit">
+                                        <div class="col flex-container-col">
                                             <a th:href="${'/cart/' + {product.getId()} }" class="btn btn-success btn-block">
                                                 <i class="fa fa-shopping-cart"></i> Giỏ
                                             </a>

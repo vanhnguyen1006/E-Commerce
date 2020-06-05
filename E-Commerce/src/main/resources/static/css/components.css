@@ -260,7 +260,8 @@ div.shop-tab-container{
     margin-bottom: 1rem;
 }
 
-.col-edit {
-    grid-column-start: 1;
-    grid-column-end: 3;
+.flex-container-col {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
 }
