@@ -22,7 +22,7 @@ public class BrandController {
         this.brandRepository = brandRepository;
     }
 
-    @GetMapping("admin/brands/")
+    @GetMapping("admin/brands")
     public String showBrand(Model model){
         model.addAttribute("brands", brandRepository.findAll());
         return "brand/index";

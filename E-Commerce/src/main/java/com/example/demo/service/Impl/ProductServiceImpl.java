@@ -1,5 +1,6 @@
 package com.example.demo.service.Impl;
 
+import com.example.demo.production.Category;
 import com.example.demo.production.Product;
 import com.example.demo.repository.ProductRepository;
 import com.example.demo.service.ProductService;
@@ -40,5 +41,10 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public void delete(Product product) {
         productRepository.delete(product);
+    }
+
+    @Override
+    public List<Product> findProductByCategory(Category category) {
+        return productRepository.findProductByCategory(category);
     }
 }

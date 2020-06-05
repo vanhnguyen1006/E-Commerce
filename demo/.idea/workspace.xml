@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c4b6a22-2313-41db-989e-08da4bc8a575" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bquORpv6uEHJOFFIln31RYogCy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.demo.service.Impl" />
+      <recent name="com.example.demo.repository" />
+      <recent name="com.example.demo.ServiceImpl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Academy\demo\demo\src\main\java\com\example\demo\production" />
+      <recent name="D:\Academy\demo\demo\src\main\java\com\example\demo\sales" />
+      <recent name="D:\Academy\demo\demo\src\main\java\com\example\demo\entity" />
+      <recent name="D:\Academy\demo\demo\src\main\resources\static\js" />
+      <recent name="D:\Academy\demo\demo\src\main\resources\static\css" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="demo-0.0.1-SNAPSHOT.jar" type="JarApplication">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/demo-0.0.1-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c4b6a22-2313-41db-989e-08da4bc8a575" name="Default Changelist" comment="" />
+      <created>1589371912626</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589371912626</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590077749454">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1590077749454" />
+    <state x="452" y="185" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589994984311">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="452" y="185" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1589994984311" />
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1591114637959">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1591114637959" />
+    <state x="363" y="122" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590376641012">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="363" y="122" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.768@0.0.1366.768" timestamp="1590376641012" />
+    <state x="388" y="188" key="#com.intellij.refactoring.memberPushDown.PushDownDialog" timestamp="1590899281271">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="388" y="188" key="#com.intellij.refactoring.memberPushDown.PushDownDialog/0.0.1366.768@0.0.1366.768" timestamp="1590899281271" />
+    <state x="328" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1590898868752">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="328" y="308" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.768@0.0.1366.768" timestamp="1590898868752" />
+    <state x="466" y="252" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1590149476741">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="466" y="252" width="433" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768@0.0.1366.768" timestamp="1590149476741" />
+    <state x="219" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1590035078523">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="219" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1366.768@0.0.1366.768" timestamp="1590035078523" />
+    <state x="702" y="130" key="#xdebugger.evaluate" timestamp="1589984814829">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="702" y="130" key="#xdebugger.evaluate/0.0.1366.768@0.0.1366.768" timestamp="1589984814829" />
+    <state x="440" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1590033916995">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="440" y="243" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590033916995" />
+    <state width="1323" height="234" key="GridCell.Tab.0.bottom" timestamp="1591185622023">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="234" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591185622023" />
+    <state width="1323" height="234" key="GridCell.Tab.0.center" timestamp="1591185622023">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="234" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591185622023" />
+    <state width="1323" height="234" key="GridCell.Tab.0.left" timestamp="1591185622023">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="234" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591185622023" />
+    <state width="1323" height="234" key="GridCell.Tab.0.right" timestamp="1591185622023">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="234" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591185622023" />
+    <state width="1323" height="75" key="GridCell.Tab.1.bottom" timestamp="1590840885532">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1590840885532" />
+    <state width="1323" height="75" key="GridCell.Tab.1.center" timestamp="1590840885532">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1590840885532" />
+    <state width="1323" height="75" key="GridCell.Tab.1.left" timestamp="1590840885532">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1590840885532" />
+    <state width="1323" height="75" key="GridCell.Tab.1.right" timestamp="1590840885532">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1323" height="75" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1590840885532" />
+    <state x="213" y="41" key="Maven.ArtifactSearchDialog" timestamp="1590288749536">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="213" y="41" key="Maven.ArtifactSearchDialog/0.0.1366.768@0.0.1366.768" timestamp="1590288749536" />
+    <state x="184" y="28" key="SettingsEditor" timestamp="1590832499778">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1590832499778" />
+    <state x="459" y="142" key="refactoring.ChangeSignatureDialog" timestamp="1589982542888">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="459" y="142" key="refactoring.ChangeSignatureDialog/0.0.1366.768@0.0.1366.768" timestamp="1589982542888" />
+    <state x="475" y="242" key="scopes" timestamp="1590032882157">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="475" y="242" key="scopes/0.0.1366.768@0.0.1366.768" timestamp="1590032882157" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1591102158192">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1591102158192" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="org.springframework.validation.BeanPropertyBindingResult" fieldName="errors" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

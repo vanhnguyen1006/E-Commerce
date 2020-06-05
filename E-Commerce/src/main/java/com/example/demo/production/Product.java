@@ -1,6 +1,6 @@
 package com.example.demo.production;
 
-import com.example.demo.sales.OrderDetail;
+//import com.example.demo.sales.OrderDetail;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.persistence.*;
@@ -31,8 +31,8 @@ public class Product implements Serializable {
     @JoinColumn(name = "brand_id", nullable = false)
     private Brand brand;
 
-    @OneToMany(mappedBy = "product", fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
-    private Set<OrderDetail> orderDetails;
+//    @OneToMany(mappedBy = "product", fetch = FetchType.LAZY, cascade = CascadeType.MERGE)
+//    private Set<OrderDetail> orderDetails;
     
 
     public Long getId() {
@@ -104,11 +104,11 @@ public class Product implements Serializable {
 
 
 
-    public Set<OrderDetail> getOrderDetails() {
-        return orderDetails;
-    }
-
-    public void setOrderDetails(Set<OrderDetail> orderDetails) {
-        this.orderDetails = orderDetails;
-    }
+//    public Set<OrderDetail> getOrderDetails() {
+//        return orderDetails;
+//    }
+//
+//    public void setOrderDetails(Set<OrderDetail> orderDetails) {
+//        this.orderDetails = orderDetails;
+//    }
 }

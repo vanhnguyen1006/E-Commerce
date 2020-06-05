@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Ba Con Sói</title>
+    <title>E-Commerce</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -16,9 +16,9 @@
           integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
     <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
-    <link rel="stylesheet" href="../css/layout.css">
-    <link rel="stylesheet" href="../css/components.css">
-    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="/css/layout.css">
+    <link rel="stylesheet" href="/css/components.css">
+    <link rel="stylesheet" href="/css/product.css">
 
 </head>
 <body>
@@ -26,8 +26,8 @@
     <div class="header">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="../image/durexlogo.png" alt="Logo">
+                <a class="navbar-brand" th:href="${'/'}">Vanh Nguyễn
+<!--                    <img src="/image/durexlogo.png" alt="Logo">-->
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
@@ -36,35 +36,26 @@
                 </button>
 
                 <div class="collapse navbar-collapse justify-content-end" id="navbarsExampleDefault">
-                    <ul class="navbar-nav m-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" th:href="${'/'}">Trang Chủ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Thể Loại</a>
-                        </li>
-                        <li class="nav-item  active">
-                            <a class="nav-link" href="#">Sản Phẩm <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Giỏ Hàng</a>
-                        </li>
-                    </ul>
+<!--                    <ul class="navbar-nav m-auto">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a class="nav-link" th:href="${'/'}">Trang Chủ</a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
 
-                    <form class="form-inline my-2 my-lg-0">
+                    <form class="form-inline my-2 my-lg-0" action="#" th:action="@{/search/page/1}" method="GET">
                         <div class="input-group input-group-sm">
                             <input type="text" class="form-control" aria-label="Small"
-                                   aria-describedby="inputGroup-sizing-sm" placeholder="Search...">
+                                   aria-describedby="inputGroup-sizing-sm" placeholder="Search..." name="search">
                             <div class="input-group-append">
                                 <button type="button" class="btn btn-secondary btn-number">
                                     <i class="fa fa-search"></i>
                                 </button>
                             </div>
                         </div>
-                        <a class="btn btn-success btn-sm ml-3" href="#">
-                            <i class="fa fa-shopping-cart"></i> Giỏ
-                            <span class="badge badge-light"></span>
-                        </a>
+<!--                        <a class="btn btn-success btn-sm ml-3" href="#">-->
+<!--                            <i class="fa fa-shopping-cart"></i> Giỏ-->
+<!--                            <span class="badge badge-light"></span>-->
+<!--                        </a>-->
                     </form>
                 </div>
             </div>
@@ -74,7 +65,6 @@
 <!-- image quảng cáo -->
 <section class="jumbotron text-center">
     <div class="container">
-        <img src="../image/header_300x300.jpg" alt="">
         <p class="lead text-muted mb-0"></p>
     </div>
 </section>
@@ -85,8 +75,10 @@
             <div class="col">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a th:href="${'/'}">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Product</li>
+                        <li class="breadcrumb-item"><a th:href="${'/'}">Trang Chủ</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">
+                            <a th:href="${'/category/' + {product.category.getId()} }" th:text="${product.category.getName()}"></a>
+                        </li>
                         <li class="breadcrumb-item " aria-current="page" th:text="${product.name}"></li>
                     </ol>
                 </nav>
@@ -210,5 +202,5 @@
             </div>
         </div>
     </div>
-    <script src="../js/product.js"></script>
+    <script src="/js/product.js"></script>
 </body>

@@ -1,5 +1,6 @@
 package com.example.demo.service;
 
+import com.example.demo.production.Category;
 import com.example.demo.production.Product;
 
 import java.util.List;
@@ -16,4 +17,6 @@ public interface ProductService {
     void save(Product product);
 
     void delete(Product product);
+
+    List<Product> findProductByCategory(Category category);
 }

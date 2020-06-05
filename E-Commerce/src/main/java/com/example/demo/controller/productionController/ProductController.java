@@ -118,9 +118,9 @@ public class ProductController {
                                 HttpServletRequest request,
                                 RedirectAttributes redirect) {
         request.getSession().setAttribute("productList", null);
+        Iterable<Product> products = productService.findAll();
         if(model.asMap().get("success") != null)
             redirect.addFlashAttribute("success",model.asMap().get("success").toString());
-
         return "redirect:/admin/products/page/1";
     }
 
@@ -151,14 +151,15 @@ public class ProductController {
         int totalPageCount = pages.getPageCount();
         String baseUrl = "/admin/products/page/";
 
+        List<Brand> brands = brandRepository.findAll();
+
         model.addAttribute("beginIndex", begin);
         model.addAttribute("endIndex", end);
         model.addAttribute("currentIndex", current);
         model.addAttribute("totalPageCount", totalPageCount);
         model.addAttribute("baseUrl", baseUrl);
         model.addAttribute("products", pages);
-
-
+        model.addAttribute("brands", brands);
         return "product/index";
     }
 
@@ -188,12 +189,17 @@ public class ProductController {
         int end = Math.min(begin + 5, pages.getPageCount());
         int totalPageCount = pages.getPageCount();
         String baseUrl = "/admin/products/page/";
+
+        List<Brand> brands = brandRepository.findAll();
+
         model.addAttribute("beginIndex", begin);
         model.addAttribute("endIndex", end);
         model.addAttribute("currentIndex", current);
         model.addAttribute("totalPageCount", totalPageCount);
         model.addAttribute("baseUrl", baseUrl);
         model.addAttribute("products", pages);
+        model.addAttribute("brands", brands);
+
         return "product/index";
     }
 
