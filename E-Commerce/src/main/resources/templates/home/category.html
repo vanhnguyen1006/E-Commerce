@@ -18,8 +18,8 @@
     <div class="header">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" th:href="${'/'}">Vanh Nguyễn
-<!--                    <img src="/image/durexlogo.png" alt="Logo">-->
+                <a class="navbar-brand" th:href="${'/'}">
+                    <img src="/image/gumi.png" alt="Logo" style="width: 120px; height: 60px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -92,10 +92,10 @@
                     <div class="card bg-light mb-3">
                         <div class="card-header bg-success text-white text-uppercase">HOT</div>
                         <div class="card-body">
-                            <img class="img-fluid" src="/image/VN-Kingtex-pk3.jpg" />
-                            <h5 class="card-title kingtex-hot">Kingtex</h5>
-                            <p class="card-text">Chú thích</p>
-                            <p class="bloc_left_price">99.00 $</p>
+                            <img class="img-fluid" src="/image/iphone-11-pro-max-green-600x600.jpg" />
+                            <h5 class="card-title kingtex-hot">Iphone 11 Pro Max</h5>
+<!--                            <p class="card-text">Chú thích</p>-->
+                            <p class="bloc_left_price">35.490.000 đ</p>
                         </div>
                     </div>
                 </div>
@@ -103,13 +103,15 @@
                     <div class="row" th:case="*">
                         <div class="col-12 col-md-6 col-lg-4" th:each="product : ${products.pageList}">
                             <div class="card">
-                                <img class="card-img-top" th:src="${product.getLinkImg()}" alt="Card image cap">
+                                <img class="card-img-top" th:src="${product.getLinkImg()}" alt="Card image cap" style="width:208px; height:208px">
                                 <div class="card-body">
                                     <h4 class="card-title text-overfl"><a  th:href="${'/product/' + {product.getId()} }"  th:title="${product.name}" th:text="${product.name}"></a></h4>
                                     <div class="row">
                                         <div class="col flex-container-col">
-                                            <p class="btn btn-danger btn-block" th:text="${product.price}"></p>
+                                            <p class="btn btn-danger btn-block" th:text="${product.price + ' đ'}"></p>
                                         </div>
+                                    </div>
+                                    <div class="row">
                                         <div class="col flex-container-col">
                                             <a th:href="${'/cart/' + {product.getId()} }" class="btn btn-success btn-block">
                                                 <i class="fa fa-shopping-cart"></i> Giỏ

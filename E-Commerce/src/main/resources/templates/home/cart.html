@@ -23,8 +23,8 @@
     <div class="header">
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" th:href="${'/'}">Vanh Nguyễn
-<!--                    <img src="/image/durexlogo.png" alt="Logo">-->
+                <a class="navbar-brand" th:href="${'/'}">
+                    <img src="/image/gumi.png" alt="Logo" style="width: 120px; height: 60px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
@@ -84,7 +84,7 @@
                         <table class="table table-striped">
                             <thead>
                             <tr>
-                                <th scope="col"> </th>
+                                <th scope="col">Hình Ảnh</th>
                                 <th scope="col">Tên Sản Phẩm</th>
                                 <th scope="col">Có Sẵn</th>
                                 <th scope="col" class="text-center">Số lượng</th>
@@ -94,7 +94,7 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td><img th:src="${product.getLinkImg()}"/></td>
+                                <td><img th:src="${product.getLinkImg()}" style="width:120px;height:120px;"/></td>
                                 <td><a th:text="${product.name}"></a></td>
                                 <td>In stock</td>
                                 <td>
