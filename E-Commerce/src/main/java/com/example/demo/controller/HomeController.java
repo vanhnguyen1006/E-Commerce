@@ -166,7 +166,9 @@ public class HomeController {
         model.addAttribute("baseUrl", baseUrl);
         model.addAttribute("products", pagesList);
         model.addAttribute("categories", categories);
-
+        if(list.size() < 1){
+            model.addAttribute("empty",true);
+        }
         return "home/category";
     }
 

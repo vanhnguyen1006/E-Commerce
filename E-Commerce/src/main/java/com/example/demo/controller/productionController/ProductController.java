@@ -152,6 +152,7 @@ public class ProductController {
         String baseUrl = "/admin/products/page/";
 
         List<Brand> brands = brandRepository.findAll();
+        List<Category> categories = categoryRepository.findAll();
 
         model.addAttribute("beginIndex", begin);
         model.addAttribute("endIndex", end);
@@ -160,6 +161,7 @@ public class ProductController {
         model.addAttribute("baseUrl", baseUrl);
         model.addAttribute("products", pages);
         model.addAttribute("brands", brands);
+        model.addAttribute("categories", categories);
         return "product/index";
     }
 
@@ -191,6 +193,7 @@ public class ProductController {
         String baseUrl = "/admin/products/page/";
 
         List<Brand> brands = brandRepository.findAll();
+        List<Category> categories = categoryRepository.findAll();
 
         model.addAttribute("beginIndex", begin);
         model.addAttribute("endIndex", end);
@@ -199,6 +202,7 @@ public class ProductController {
         model.addAttribute("baseUrl", baseUrl);
         model.addAttribute("products", pages);
         model.addAttribute("brands", brands);
+        model.addAttribute("categories", categories);
 
         return "product/index";
     }
