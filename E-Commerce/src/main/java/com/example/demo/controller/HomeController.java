@@ -104,17 +104,7 @@ public class HomeController {
 
     }
 
-//    @GetMapping("/category/{id}")
-//    public String showProductByCategory(Model model,
-//                              @PathVariable("id") long id){
-//        Category category = categoryService.findOne(id).get();
-//        List<Product> products = productService.findProductByCategory(category);
-//
-//        model.addAttribute("products", products);
-//        return "redirect:/category/{id}/page/1";
-//    }
-
-    // Thể loại - pagination
+    // Category - Thể loại - pagination
     @GetMapping("/category/{id}")
     public String pagePro(Model model, HttpServletRequest request,
                           RedirectAttributes redirect,
