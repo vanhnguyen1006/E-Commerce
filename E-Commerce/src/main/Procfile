@@ -1,1 +1,1 @@
-web: java -Dserver.port=45513 $JAVA_OPTS -jar target/e-commerce.jar
+web: java -jar target/e-commerce.jar
