@@ -1,9 +1,9 @@
 {
-  "name": "E-Commerce",
-"version": "0.0.0",
-  "description": "a really cool app",
+  "name": "e-commerce",
   "version": "1.0.0",
-"scripts": {
-"start": "node index.js"
-}
+  "description": "a really cool app",
+  "main": "app.js",
+  "scripts": {
+  "start": "node index.js"
+  }
 }
