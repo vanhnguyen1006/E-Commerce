@@ -2,8 +2,8 @@
   "name": "e-commerce",
   "version": "1.0.0",
   "description": "a really cool app",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-  "start": "node app.js"
+  "start": "node server.js"
   }
 }
