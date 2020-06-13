@@ -1,1 +1,1 @@
-web: java -jar target/e-commerce.jar
+web: node app.js
