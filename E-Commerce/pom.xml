@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>quiet-castle-92654</groupId>
 	<artifactId>quiet-castle-92654</artifactId>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DemeMVC</name>
 	<description>Demo project for Spring Boot</description>
