@@ -9,8 +9,8 @@
 		<version>2.2.7.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>quiet-castle-92654</groupId>
+	<artifactId>quiet-castle-92654</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DemeMVC</name>
@@ -73,7 +73,7 @@
 	</dependencies>
 
 	<build>
-<!--		<finalName>e-commerce</finalName>-->
+		<finalName>quiet-castle-92654</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
