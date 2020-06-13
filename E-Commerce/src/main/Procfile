@@ -1,1 +1,1 @@
-web: java -jar /home/index
+web: vendor/bin/heroku-java-apache2 public/
