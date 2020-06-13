@@ -13,6 +13,7 @@
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DemeMVC</name>
+	<url>http://maven.apache.org</url>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -85,9 +86,7 @@
 				<artifactId>maven-dependency-plugin</artifactId>
 				<version>2.3</version>
 
-				<configuration>
-					<failOnMissingWebXml>false</failOnMissingWebXml>
-				</configuration>
+
 				<executions>
 					<execution>
 						<phase>package</phase>
