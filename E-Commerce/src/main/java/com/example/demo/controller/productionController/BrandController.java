@@ -1,7 +1,7 @@
 package com.example.demo.controller.productionController;
 
-import com.example.demo.production.Brand;
-import com.example.demo.repository.BrandRepository;
+import com.example.demo.entity.production.Brand;
+import BrandRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

@@ -1,11 +1,11 @@
 package com.example.demo.controller.productionController;
 
-import com.example.demo.production.Brand;
-import com.example.demo.production.Category;
-import com.example.demo.production.Product;
-import com.example.demo.repository.BrandRepository;
-import com.example.demo.repository.CategoryRepository;
-import com.example.demo.service.ProductService;
+import com.example.demo.entity.production.Brand;
+import com.example.demo.entity.production.Category;
+import com.example.demo.entity.production.Product;
+import BrandRepository;
+import CategoryRepository;
+import com.example.demo.service.productsService.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.support.PagedListHolder;
 import org.springframework.stereotype.Controller;

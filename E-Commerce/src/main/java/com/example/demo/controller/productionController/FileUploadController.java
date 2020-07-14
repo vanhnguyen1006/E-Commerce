@@ -1,9 +1,9 @@
 package com.example.demo.controller.productionController;
 
-import com.example.demo.production.Product;
-import com.example.demo.repository.BrandRepository;
-import com.example.demo.repository.CategoryRepository;
-import com.example.demo.repository.ProductRepository;
+import com.example.demo.entity.production.Product;
+import BrandRepository;
+import CategoryRepository;
+import com.example.demo.repository.productsRepository.ProductRepository;
 import com.example.demo.storage.StorageFileNotFoundException;
 import com.example.demo.storage.service.StorageService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,10 +14,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.Optional;
 
